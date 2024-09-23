@@ -1,0 +1,11 @@
+* Le code que nous avons l'executer simule un capteur IoT connecté à Azure IoT Hub. Il envoie des messages basés sur des conditions simulées, comme la température et la détection de feu, et il est conçu pour tester un scénario où ces capteurs réagissent automatiquement en cas de température élevée ou de détection de feu.
+
+* Dans le terminal de IOT Hub appliquez les etapes suivantes: 
+#installer le module requis
+pip install azure-iot-device
+#vérifier si le module est accessible
+pip show azure-iot-device
+#creer le fichier a executer
+nano coordination_des_capteurs.py
+#executer le code 
+python coordination_des_capteurs.py
